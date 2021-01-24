@@ -35,5 +35,5 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # Database url
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://cyrus:cyrus@cluster0.tzyhf.mongodb.net/<dbname>?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://viebsibanujqtq:774b7764faf38714387e4e62891c16af92e81505f6be81d75c88a374aceb9f8d@ec2-54-172-17-119.compute-1.amazonaws.com:5432/dbite894t4ikjt")
     
